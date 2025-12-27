@@ -6,7 +6,7 @@ import type {
   IDataObject,
 } from 'n8n-workflow';
 import { NodeApiError } from 'n8n-workflow';
-import { getEtiquetasioLogin } from '../helpers/getprixLogin';
+import { getprixLogin } from '../helpers/getprixLogin';
 
 export async function prixApiRequest(
   this: IExecuteFunctions | ILoadOptionsFunctions,
